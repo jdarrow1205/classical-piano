@@ -1,0 +1,116 @@
+/*Global*/
+body{
+margin: 0;
+padding: 0;
+overflow: scroll;
+}
+
+header{
+background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://www.thenational.ae/image/policy:1.60525:1498928438/image/jpeg.jpg?f=16x9&w=1200&$p$f$w=dfa40e8');
+background-size: 1370px 697px;
+background-repeat: no-repeat;
+color: white;
+height: 697px;
+width: 100%;
+}
+.navi{
+width: 100%;
+overflow: hidden;
+background-size: 1370px 697px;
+}
+/*Branding*/
+.branding{
+font-family: Century Gothic, sans-serif;
+float: left;
+font-size: 20px;
+padding-left: 50px;
+}
+/*Links*/
+.links{
+float: right;
+display: inline-block;
+margin-top: 39px;
+margin-left: 0px;
+margin-right: 0px;
+}
+.links a{
+color: white;
+text-decoration: none;
+font-size: 20px;
+margin-right: 40px;
+padding: 5px 20px;
+display: inline-block;
+}
+.links a.current{
+font-weight: bold;
+}
+.links {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.links a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: white;
+    transition: width .3s ease-in-out;
+}
+
+.links a:hover::after {
+    width: 100%;
+}
+   
+.links a:not(:hover){
+color: rgb(255,255,255);
+transition: 0.6s ease;
+}
+.youtube{
+float: right;
+margin-top: 35px;
+margin-right: 30px;
+margin-left: 0;
+    
+}
+
+/*center image*/
+#center-classical{
+position: absolute;
+top: 40%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+}
+/*Mainscreen Showcase*/
+
+#mainscreen p{
+position: absolute;
+top: 60%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+width: 800px;
+text-align: center;
+font-size: 20px;
+line-height: 50px;
+margin-top: 50px;
+}
+/*Biography*/
+#bio{
+overflow: hidden;
+background-color: white;
+padding-left: 20px;
+width: auto;
+line-height: 50px;
+margin-bottom: 0px;
+}
+#bio img{
+margin-top: 50px;
+float: left;
+margin-right: 50px;
+}
+#bio #content{
+margin-top: 80px;
+}
